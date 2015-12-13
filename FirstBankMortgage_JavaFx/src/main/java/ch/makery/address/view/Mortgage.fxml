@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="-Infinity" prefWidth="693.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.MortgageController">
+   <children>
+      <TextField fx:id="AnnualIncome" layoutX="173.0" layoutY="47.0" />
+      <TextField fx:id="MonthlyExpenses" layoutX="173.0" layoutY="86.0" />
+      <TextField fx:id="CreditScore" layoutX="173.0" layoutY="128.0" />
+      <TextField fx:id="HouseCost" layoutX="173.0" layoutY="168.0" />
+      <ComboBox fx:id="Term" layoutX="173.0" layoutY="207.0" prefHeight="26.0" prefWidth="163.0" promptText="Select..." />
+      <Label layoutX="57.0" layoutY="47.0" prefHeight="26.0" prefWidth="96.0" text="Annual Income:" />
+      <Label layoutX="46.0" layoutY="86.0" prefHeight="26.0" prefWidth="119.0" text="Monthly Expenses:" />
+      <Label layoutX="73.0" layoutY="128.0" prefHeight="26.0" prefWidth="80.0" text="Credit Score:" />
+      <Label layoutX="73.0" layoutY="168.0" prefHeight="26.0" prefWidth="80.0" text="House Cost:" />
+      <Label layoutX="113.0" layoutY="207.0" prefHeight="26.0" prefWidth="41.0" text="Term:" />
+      <Button layoutX="173.0" layoutY="254.0" mnemonicParsing="false" onAction="#handleOk" prefHeight="26.0" prefWidth="96.0" text="Ok" />
+      <Label layoutX="47.0" layoutY="301.0" text="Mortgage Payment:" />
+      <Label fx:id="Result" layoutX="37.0" layoutY="309.0" prefHeight="61.0" prefWidth="620.0" />
+   </children>
+</AnchorPane>

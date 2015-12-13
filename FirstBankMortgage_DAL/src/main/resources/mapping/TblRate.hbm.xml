@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+    <class name="domain.RateDomainModel" table="tblrate">
+
+		<id name="RateID" type="int">
+			<column name="RateID" length="9" />
+		</id>
+
+		<property name="MinCreditScore" type="int">
+			<column name="MinCreditScore" length="3" not-null="true" />
+		</property>
+		<property name="InterestRate" type="double">
+			<column name="InterestRate" length="9" not-null="true" />
+		</property>
+
+		
+	</class>
+</hibernate-mapping>

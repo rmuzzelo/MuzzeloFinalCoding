@@ -1,0 +1,3 @@
+domain/RateDomainModel.class
+util/HibernateUtil.class
+base/RateDAL.class
