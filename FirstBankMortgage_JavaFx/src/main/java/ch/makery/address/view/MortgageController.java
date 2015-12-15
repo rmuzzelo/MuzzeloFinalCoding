@@ -97,7 +97,7 @@ public class MortgageController {
             String PMTFormatted = df.format(-PMT);
 
 
-            if (-PMT<=monthlyincome*.36 | -PMT <=(monthlyincome+monthlyexpenses)*.18){
+            if (-PMT<=monthlyincome*.36 | -PMT <=(monthlyincome+monthlyexpenses)*.28){
             	Result.setText("Your monthly mortgage payment is: $"+ PMTFormatted);
             }
             else{
